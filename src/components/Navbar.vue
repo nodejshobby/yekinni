@@ -1,27 +1,27 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Yekinni <b>B.</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav ms-auto my-2 my-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Projects</a>
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Contact</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
       <div class="d-flex ms-md-4 me-md-2 mb-2 mb-lg-0">
-        <button class="btn btn-primary">Hire Me</button>
+        <a href="#" class="btn btn-primary btn-action">Hire Me</a>
         </div>
     </div>
     
@@ -36,5 +36,26 @@ export default {
 </script>
 
 <style>
-
+    .navbar {
+        background-color: var(--primary-color) !important;
+        border-bottom: 1px solid #7e7e7e;
+    }
+    .navbar-toggler {
+        font-size: 1.7rem;
+        color: var(--secondary-color);
+        border: none;
+    }
+    .navbar-toggler:focus {
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .nav-link {
+        color: var(--secondary-color) !important;
+        transition: all 0.5s ease;
+    }
+    .nav-link:active,.nav-link:hover  {
+        color: var(--light-color) !important;
+    }
+    
 </style>
