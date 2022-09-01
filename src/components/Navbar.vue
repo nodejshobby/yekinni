@@ -17,6 +17,9 @@
           <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
@@ -38,7 +41,11 @@ export default {
 <style>
     .navbar {
         background-color: var(--primary-color) !important;
-        border-bottom: 1px solid #7e7e7e;
+        border-bottom: 1px solid #757575;
+    }
+    .navbar-brand {
+        font-size: 1.6rem;
+        font-weight: 600;   
     }
     .navbar-toggler {
         font-size: 1.7rem;

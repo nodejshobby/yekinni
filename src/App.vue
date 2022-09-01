@@ -25,6 +25,7 @@ export default {
   body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
+    overflow-x: hidden;
   }
   .btn:active, .btn:focus {
     box-shadow: none !important;
