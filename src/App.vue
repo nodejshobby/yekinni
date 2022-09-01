@@ -1,17 +1,21 @@
 <template>
   <NavBar/>
   <HeroSection/>
+  <AboutSection/>
 </template>
 
 <script>
 import NavBar from './components/Navbar.vue';
 import HeroSection from './components/Hero.vue';
+import AboutSection from './components/About.vue';
+
 
 export default {
   name: 'App',
   components: {
     NavBar,
     HeroSection,
+    AboutSection
 }
 }
 </script>
@@ -40,5 +44,8 @@ export default {
         background-color: var(--secondary-color);
         color: var(--primary-color);
         border-color: var(--secondary-color);
+  }
+  .section-padding {
+    padding: 3rem 0;
   }
 </style>

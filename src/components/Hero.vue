@@ -7,13 +7,13 @@
             <p> I build scalable and secure web applications. <br>
             I am active in self and team managed projects.
             </p>
-            <div class="social-icons">
+            <div class="social-icons mt-4">
                 <a href=""><i class="fab fa-linkedin"></i></a>
                 <a href=""><i class="fab fa-github"></i></a>
                 <a href=""><i class="fa fa-envelope-open"></i></a>
             </div>
             <div class="cta mt-4">
-                <button class="btn btn-outline-light"> <i class="fa fa-laptop"></i> See my works</button>
+                <a href="#portfolio" class="btn btn-outline-light"> <i class="fa fa-laptop"></i> See my works</a>
             </div>
         </div>
     </div>
