@@ -2,12 +2,15 @@
   <NavBar/>
   <HeroSection/>
   <AboutSection/>
+  <ProjectSection/>
 </template>
 
 <script>
 import NavBar from './components/Navbar.vue';
 import HeroSection from './components/Hero.vue';
 import AboutSection from './components/About.vue';
+import ProjectSection from './components/Project.vue';
+
 
 
 export default {
@@ -15,29 +18,34 @@ export default {
   components: {
     NavBar,
     HeroSection,
-    AboutSection
+    AboutSection,
+    ProjectSection
 }
 }
 </script>
 
 <style>
   :root {
-    --primary-color: #000;
+    --primary-color: #000328;
     --secondary-color: #fff;
     --light-color: #e8e8e8;
+    --dark-blue: #000112;
   }
+
   body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
-    overflow-x: hidden;
+    color: var(--dark-blue);
+    margin-top: 4.4rem;
   }
+
   .btn:active, .btn:focus {
     box-shadow: none !important;
     outline: none !important;
   }
   .btn-action {
         background-color: var(--secondary-color);
-        color: var(--primary-color);
+        color: var(--dark-blue);
         border-color: var(--secondary-color);
   }
   .btn-action:hover, .btn-action:focus {
@@ -47,5 +55,12 @@ export default {
   }
   .section-padding {
     padding: 3rem 0;
+  }
+  .blue-hover-effect {
+    border-color: var(--dark-blue);
+    font-weight: 600;
+  }
+  .blue-hover-effect:hover {
+    background-color: var(--primary-color);
   }
 </style>
