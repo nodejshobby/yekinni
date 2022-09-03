@@ -36,7 +36,7 @@ const data= [
         "projectDemo": "https://youtube-save.herokuapp.com/"
     },
     {
-        "projectTitle": "Shopping Cart Api",
+        "projectTitle": "Shopping Cart",
         "projectImage": require('../assets/shop.png'),
         "projectDescription": "This is a clean api for shopping cart system it is documented with swagger library",
         "projectTags": [
