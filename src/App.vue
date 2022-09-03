@@ -20,7 +20,7 @@ export default {
     HeroSection,
     AboutSection,
     ProjectSection
-}
+  }
 }
 </script>
 
@@ -37,6 +37,7 @@ export default {
     line-height: 1.7;
     color: var(--dark-blue);
     margin-top: 4.4rem;
+    overflow-x: hidden;
   }
 
   .btn:active, .btn:focus {
@@ -47,6 +48,7 @@ export default {
         background-color: var(--secondary-color);
         color: var(--dark-blue);
         border-color: var(--secondary-color);
+        font-weight: 500;
   }
   .btn-action:hover, .btn-action:focus {
         background-color: var(--secondary-color);

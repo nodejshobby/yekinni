@@ -7,14 +7,14 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center align-items-center g-4 mt-3">
-            <div class="col-md-6 col-lg-4" v-for="project in projects" :key="project.projectTitle">
-                <div class="card bg-white project">
+        <div class="row justify-content-center d-flex align-items-stretch g-4 mt-3">
+            <div class="col-md-6 col-lg-4 shadow-sm" v-for="project in projects" :key="project.projectTitle">
+                <div class="card bg-white project h-100">
                     <img class="card-img-top img-fluid" :src="project.projectImage" alt="">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <div class="tags mt-1 mb-3"><span v-for="tag in project.projectTags" :key="tag">{{ tag }}</span></div>
                         <h3>{{ project.projectTitle }}</h3>
-                        <p>{{ project.projectDescription }}</p>
+                        <p class="mb-4">{{ project.projectDescription }}</p>
                         <div class="d-flex justify-content-end mt-2">
                             <a target="_blank" :href="project.projectDemo" class="btn btn-sm btn-outline-primary demo">Check it out <i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -52,6 +52,7 @@ export default {
         color: var(--dark-blue);
         box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
         padding-bottom: .8rem;
+        overflow: hidden;
     }
     .project p {
         font-size: .9rem;
@@ -61,7 +62,11 @@ export default {
     }
     .project .card-img-top {
         height: 15rem !important;
-        border-bottom: 1.2px solid rgba(0,0,0,0.1);
+        border-bottom: .2px solid #dadada;
+        transition: transform .5s ease;
+    }
+    .project:hover .card-img-top {
+        transform: scale(1.1);
     }
     .tags {
         line-height: 1.9;

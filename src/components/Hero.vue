@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="container-fluid">
     <div class="row justify-content-center align-items-center text-center" id="hero-section">
         <div class="col-md-8">
             <h1 class="mb-3">Hi, 👋I'm Yekinni Basiru</h1>

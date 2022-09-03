@@ -1,7 +1,7 @@
 const data= [
     {
         "projectTitle": "Chat Application",
-        "projectImage": "../images/Chat.png",
+        "projectImage": require('../assets/Chat.png'),
         "projectDescription": "This is a room based chat application with authentication system",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","BOOTSTRAP","EJS","MONGODB","NODEJS"
@@ -10,7 +10,7 @@ const data= [
     },
     {
         "projectTitle": "Google Boooks",
-        "projectImage": "../images/book api.png",
+        "projectImage": require('../assets/book api.png'),
         "projectDescription": "This is an application that allows you to get paramount information about books",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","BOOTSTRAP","EJS","NODEJS"
@@ -19,7 +19,7 @@ const data= [
     },
     {
         "projectTitle": "Url Shortner",
-        "projectImage": "../images/url shortner.png",
+        "projectImage": require('../assets/url shortner.png'),
         "projectDescription": "This is an application that allows you shorten long url to a readable and shareable link",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","BOOTSTRAP","NODEJS"
@@ -28,7 +28,7 @@ const data= [
     },
     {
         "projectTitle": "Youtube Downloader",
-        "projectImage": "../images/YTD.png",
+        "projectImage": require('../assets/YTD.png'),
         "projectDescription": "This is an application that allows you to download youtube videos by just providing the video url",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","EJS","BOOTSTRAP","NODEJS"
@@ -37,7 +37,7 @@ const data= [
     },
     {
         "projectTitle": "Shopping Cart Api",
-        "projectImage": "../images/shop.png",
+        "projectImage": require('../assets/shop.png'),
         "projectDescription": "This is an clean api for shopping cart system it is documented with swagger library",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","JWT","NODEJS", "SWAGGER", "MONGODB","REDIS",
@@ -46,8 +46,8 @@ const data= [
     },
     {
         "projectTitle": "My Portfolio",
-        "projectImage": "../images/portfolio.png",
-        "projectDescription": "This is my portfolio website where you can get to know most about me and contact me for any projects",
+        "projectImage": require('../assets/portfolio.png'),
+        "projectDescription": "This is my portfolio website where you can get to know most about me",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","VUEJS","BOOTSTRAP"
         ],

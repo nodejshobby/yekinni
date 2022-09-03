@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Yekinni <b>B.</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         </li>
       </ul>
       <div class="d-flex ms-md-4 me-md-2 mb-2 mb-lg-0">
-        <a href="#" class="btn btn-primary btn-action">Hire Me</a>
+        <a href="#" class="btn btn-primary btn-action">Hire me</a>
         </div>
     </div>
     
@@ -41,7 +41,6 @@ export default {
 <style>
     .navbar {
         background-color: var(--primary-color) !important;
-        border-bottom: 1px solid #757575;
     }
     .navbar-brand {
         font-size: 1.6rem;
