@@ -4,12 +4,12 @@ const data= [
         "projectImage": require('../assets/Chat.png'),
         "projectDescription": "This is a room based chat application with authentication system",
         "projectTags": [
-            "HTML","CSS","JAVASCRIPT","BOOTSTRAP","EJS","MONGODB","NODEJS"
+            "HTML","CSS","JAVASCRIPT","BOOTSTRAP","MONGODB","NODEJS"
         ],
         "projectDemo": "https://chatvivy.herokuapp.com"
     },
     {
-        "projectTitle": "Google Boooks",
+        "projectTitle": "Google Books",
         "projectImage": require('../assets/book api.png'),
         "projectDescription": "This is an application that allows you to get paramount information about books",
         "projectTags": [
@@ -29,7 +29,7 @@ const data= [
     {
         "projectTitle": "Youtube Downloader",
         "projectImage": require('../assets/YTD.png'),
-        "projectDescription": "This is an application that allows you to download youtube videos by just providing the video url",
+        "projectDescription": "This is an application that allows you to download youtube videos",
         "projectTags": [
             "HTML","CSS","JAVASCRIPT","EJS","BOOTSTRAP","NODEJS"
         ],
@@ -38,9 +38,9 @@ const data= [
     {
         "projectTitle": "Shopping Cart Api",
         "projectImage": require('../assets/shop.png'),
-        "projectDescription": "This is an clean api for shopping cart system it is documented with swagger library",
+        "projectDescription": "This is a clean api for shopping cart system it is documented with swagger library",
         "projectTags": [
-            "HTML","CSS","JAVASCRIPT","JWT","NODEJS", "SWAGGER", "MONGODB","REDIS",
+            "SWAGGER UI","JAVASCRIPT","JWT","NODEJS", "MONGODB","REDIS",
         ],
         "projectDemo": "https://shopexity.herokuapp.com/api-docs/"
     },
