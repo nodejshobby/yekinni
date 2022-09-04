@@ -4,6 +4,7 @@
   <AboutSection/>
   <ProjectSection/>
   <SkillSection/>
+  <ContactSection/>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import HeroSection from './components/Hero.vue';
 import AboutSection from './components/About.vue';
 import ProjectSection from './components/Project.vue';
 import SkillSection from './components/Skills.vue';
+import ContactSection from './components/Contact.vue';
 
 
 export default {
@@ -21,7 +23,8 @@ export default {
     HeroSection,
     AboutSection,
     ProjectSection,
-    SkillSection
+    SkillSection,
+    ContactSection,
   }
 }
 </script>

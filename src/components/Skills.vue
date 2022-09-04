@@ -7,7 +7,7 @@
         </div>
     </div>
     
-        <div class="row justify-content-center align-items-center g-5 px-3 px-md-5" id="skill-box">
+        <div class="row justify-content-center align-items-center g-5 px-3 px-md-5 mt-1" id="skill-box">
                 <div class="col-md-6">
                     <h4 class="mb-4">Programming Languages</h4>
                     <SkillBar width="90" title="HTML" color="#04AA6D" />
@@ -38,13 +38,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-    #skill-box {
-        margin-top: .5px;
-        padding-top: 0;
-    }
-    .section-header {
-        margin-bottom: 1px;
-    }
-</style>
