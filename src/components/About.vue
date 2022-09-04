@@ -26,10 +26,6 @@ export default {
 </script>
 
 <style>
-    #about-box {
-        position: relative;
-    }
-
     #about-me-image {
         vertical-align: middle;
         border-radius: 10%;

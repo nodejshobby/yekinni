@@ -31,11 +31,10 @@ export default {
     --light-color: #e8e8e8;
     --dark-blue: #000112;
   }
-
+  
   html,body {
     margin: 0;
     padding: 0;
-    width: 100%;
     overflow-x: hidden;
   }
 
