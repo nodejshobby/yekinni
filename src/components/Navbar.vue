@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg px-1 px-md-3">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow px-1 px-md-3">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Yekinni <b>B.</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,20 +11,20 @@
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#project">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
       <div class="d-flex ms-md-4 me-md-2 mb-2 mb-lg-0">
-        <a href="#" class="btn btn-primary btn-action">Hire me</a>
+        <a href="#" target="_blank" class="btn btn-primary btn-action">Hire me</a>
         </div>
     </div>
     

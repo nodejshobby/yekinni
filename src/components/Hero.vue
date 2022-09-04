@@ -8,12 +8,12 @@
             I am active in self and team managed projects.
             </p>
             <div class="social-icons mt-4">
-                <a href=""><i class="fab fa-linkedin"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fa fa-envelope-open"></i></a>
+                <a href="https://www.linkedin.com/in/nodejshobby/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/nodejshobby" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:nodejshobby@gmail.com?subject=Hello%2C%20Yekinni%20Basiru" target="_blank"><i class="fa fa-envelope-open"></i></a>
             </div>
             <div class="cta mt-4">
-                <a href="#portfolio" class="btn btn-outline-light"> <i class="fa fa-laptop"></i> See my works</a>
+                <a href="#project" class="btn btn-outline-light"> <i class="fa fa-laptop"></i> See my works</a>
             </div>
         </div>
     </div>
