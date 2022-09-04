@@ -12,7 +12,7 @@
                 <div class="card bg-white project h-100">
                     <img class="card-img-top img-fluid" :src="project.projectImage" alt="">
                     <div class="card-body">
-                        <div class="tags mt-1 mb-3"><span v-for="tag in project.projectTags" :key="tag">{{ tag }}</span></div>
+                        <div class="tags d-flex flex-wrap mt-1 mb-3"><span v-for="tag in project.projectTags" :key="tag">{{ tag }}</span></div>
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <h4>{{ project.projectTitle }}</h4>
                             <a target="_blank" :href="project.projectDemo" class="btn btn-sm btn-outline-primary demo"><i class="fas fa-link"></i></a>
@@ -76,6 +76,7 @@ export default {
         background-color: var(--dark-blue);
         color: var(--secondary-color);
         margin-right: .3rem;
+        margin-bottom: .4rem;
         padding: .3rem .9rem;
         font-size: .7rem;
         border-radius: 20px;
