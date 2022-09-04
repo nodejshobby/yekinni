@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-center mt-2 px-5 g-4">
-        <div class="col-md-10 col-lg-8 col-xl-6 mx-auto">
+        <div class="col-11 col-md-10 col-lg-8 col-xl-6 mx-auto">
             <form action="https://formspree.io/f/mdojaapn" method="post">
                 <div class="form-group mb-3">
                     <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject" required>
