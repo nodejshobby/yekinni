@@ -3,6 +3,7 @@
   <HeroSection/>
   <AboutSection/>
   <ProjectSection/>
+  <SkillSection/>
 </template>
 
 <script>
@@ -10,7 +11,7 @@ import NavBar from './components/Navbar.vue';
 import HeroSection from './components/Hero.vue';
 import AboutSection from './components/About.vue';
 import ProjectSection from './components/Project.vue';
-
+import SkillSection from './components/Skills.vue';
 
 
 export default {
@@ -19,7 +20,8 @@ export default {
     NavBar,
     HeroSection,
     AboutSection,
-    ProjectSection
+    ProjectSection,
+    SkillSection
   }
 }
 </script>
@@ -44,7 +46,7 @@ export default {
     color: var(--dark-blue);
     margin-top: 4.2rem;
   }
-
+ 
   .btn:active, .btn:focus {
     box-shadow: none !important;
     outline: none !important;
