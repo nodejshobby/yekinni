@@ -32,12 +32,18 @@ export default {
     --dark-blue: #000112;
   }
 
+  html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--dark-blue);
-    margin-top: 4.4rem;
-    overflow-x: hidden;
+    margin-top: 4.2rem;
   }
 
   .btn:active, .btn:focus {
