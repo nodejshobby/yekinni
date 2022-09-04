@@ -6,7 +6,7 @@
             <p>Need to communicate with me on any projects or have anything to discussion with me</p>
         </div>
     </div>
-    <div class="row justify-content-center align-items-center mt-2 px-5 g-4">
+    <div class="row justify-content-center align-items-center mt-2 g-4">
         <div class="col-11 col-md-10 col-lg-8 col-xl-6">
             <form action="https://formspree.io/f/mdojaapn" method="post">
                 <div class="form-group mb-3">
