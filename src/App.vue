@@ -5,6 +5,7 @@
   <ProjectSection/>
   <SkillSection/>
   <ContactSection/>
+  <FooterSection/>
 </template>
 
 <script>
@@ -14,7 +15,7 @@ import AboutSection from './components/About.vue';
 import ProjectSection from './components/Project.vue';
 import SkillSection from './components/Skills.vue';
 import ContactSection from './components/Contact.vue';
-
+import FooterSection from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -25,6 +26,7 @@ export default {
     ProjectSection,
     SkillSection,
     ContactSection,
+    FooterSection,
   }
 }
 </script>

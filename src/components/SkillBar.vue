@@ -36,5 +36,7 @@ export default {
         padding: 1px 0; 
         color: var(--secondary-color);
         border-radius: .4rem;
+        font-size: .8rem;
+        font-weight: 600;
     }
 </style>
