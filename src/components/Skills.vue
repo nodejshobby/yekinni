@@ -21,7 +21,7 @@
                     <SkillBar :width="90" title="MONGODB" color="#04AA6D" />
                     <SkillBar :width="80" title="MYSQL" color="#2196F3" />
                     <SkillBar :width="90" title="REDIS" color="#f80000" />
-                    <SkillBar :width="80" title="GIT" color="#000328" />
+                    <SkillBar :width="90" title="GIT" color="#000328" />
                     <SkillBar :width="90" title="HEROKU,NETLIFY & AWS" color="#808080" />
                 </div>
         </div>  
