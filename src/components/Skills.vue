@@ -8,7 +8,7 @@
     </div>
     
         <div class="row justify-content-center align-items-center gx-5 gy-4 px-3 px-md-5 mt-1">
-                <div class="col-md-6">
+                <div class="col-md-6 animate__animated animate__flipInX">
                     <h4 class="mb-4">Programming Languages</h4>
                     <SkillBar :width="90" title="HTML" color="#04AA6D" />
                     <SkillBar :width="80" title="CSS" color="#2196F3" />
@@ -16,7 +16,7 @@
                     <SkillBar :width="80" title="PHP" color="#000328" />
                     <SkillBar :width="90" title="NODEJS" color="#808080" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 animate__animated animate__flipInX">
                     <h4 class="mb-4">Tools and Databases</h4>
                     <SkillBar :width="90" title="MONGODB" color="#04AA6D" />
                     <SkillBar :width="80" title="MYSQL" color="#2196F3" />

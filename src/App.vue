@@ -1,11 +1,13 @@
 <template>
-  <NavBar/>
-  <HeroSection/>
-  <AboutSection/>
-  <ProjectSection/>
-  <SkillSection/>
-  <ContactSection/>
-  <FooterSection/>
+  <div data-bs-spy="scroll" data-bs-target="#scrollNavbar" data-bs-offset="0" tabindex="0">
+    <NavBar/>
+    <HeroSection/>
+    <AboutSection/>
+    <ProjectSection/>
+    <SkillSection/>
+    <ContactSection/>
+    <FooterSection/>
+  </div>
 </template>
 
 <script>

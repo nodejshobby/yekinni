@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-center mt-2 g-4">
-        <div class="col-11 col-md-10 col-lg-8 col-xl-6">
+        <div class="col-11 col-md-10 col-lg-8 col-xl-6 animate__animated animate__flipInX">
             <form action="https://formspree.io/f/mdojaapn" method="post" id="contactForm" @submit.prevent="handleSubmit">
                 <div class="alert alert-success mb-3" v-if="success">
                     {{ success }}
