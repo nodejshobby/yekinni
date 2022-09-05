@@ -77,22 +77,23 @@ export default {
         color: var(--secondary-color);
         margin-right: .3rem;
         margin-bottom: .4rem;
-        padding: .3rem .9rem;
-        font-size: .7rem;
+        padding: .3rem .8rem;
+        font-size: 9.5px;
         border-radius: 20px;
         font-weight: 600;
+        letter-spacing: 1px;
         white-space: nowrap;
     }
     .demo {
-        border-color: var(--primary-color);
-        color: var(--primary-color);
+        border-color: var(--dark-blue);
+        color: var(--dark-blue);
         padding: .4rem .6rem;
         font-weight: 600;
         font-size: 17px;
         transition: all .5s ease;
     }
     .demo:hover, .demo:focus {
-        background-color: var(--primary-color) !important;
+        background-color: var(--dark-blue) !important;
         border: none;
     }
 </style>

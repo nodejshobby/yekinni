@@ -16,13 +16,13 @@ export default {
 
 <style>
     #footer {
-        background-color: #01011d;
+        background-color: var(--dark-blue);
     }
     #footer p {
         font-size: .9rem;
     }
     .highlighted {
-        color: var(--bs-blue);
+        color: var(--light-blue);
         font-weight: 600;
     }
 </style>

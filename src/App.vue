@@ -33,10 +33,11 @@ export default {
 
 <style>
   :root {
-    --primary-color: #000328;
+    --primary-color: #01064b;
     --secondary-color: #fff;
     --light-color: #e8e8e8;
-    --dark-blue: #000112;
+    --dark-blue: #01011d;
+    --light-blue: #3884f7;
   }
   
   html,body {

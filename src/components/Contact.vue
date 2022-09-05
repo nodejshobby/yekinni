@@ -96,9 +96,9 @@ export default {
     }
     #contact-btn {
         padding: .8rem 3rem;
-        background-color: var(--secondary-color);
+        background-color: var(--dark-blue);
         border-color: var(--dark-blue);
-        color: var(--dark-blue);
+        color: var(--secondary-color);
         font-weight: 600;
         transition: all .5s ease;
     }

@@ -1,13 +1,13 @@
 <template>
    <section class="container-fluid section-padding" id="skill">
     <div class="row text-center section-header">
-        <div class="col-12">
+        <div class="col-12 mb-1">
             <h2>Skills</h2>
             <p>Here are programming languages , databases and tools I use</p>
         </div>
     </div>
     
-        <div class="row justify-content-center align-items-center g-5 px-3 px-md-5 mt-1" id="skill-box">
+        <div class="row justify-content-center align-items-center gx-5 gy-4 px-3 px-md-5 mt-1">
                 <div class="col-md-6">
                     <h4 class="mb-4">Programming Languages</h4>
                     <SkillBar :width="90" title="HTML" color="#04AA6D" />
@@ -22,7 +22,7 @@
                     <SkillBar :width="80" title="MYSQL" color="#2196F3" />
                     <SkillBar :width="90" title="REDIS" color="#f80000" />
                     <SkillBar :width="90" title="GIT" color="#000328" />
-                    <SkillBar :width="90" title="HEROKU,NETLIFY & AWS" color="#808080" />
+                    <SkillBar :width="90" title="HEROKU, NETLIFY & AWS" color="#808080" />
                 </div>
         </div>  
     </section>

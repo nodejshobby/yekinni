@@ -11,7 +11,7 @@
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About Me</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#project">Projects</a>
@@ -60,8 +60,21 @@ export default {
         color: var(--secondary-color) !important;
         transition: all 0.5s ease;
     }
-    .nav-link:active,.nav-link:hover  {
-        color: var(--light-color) !important;
+
+    .nav-link:hover  {
+        color: var(--light-blue) !important;
     }
+    
+    .nav-link.active {
+      color: var(--light-blue) !important;
+      font-weight: 600;
+    }
+
+    .nav-link:active {
+      color: var(--light-blue) !important;
+      font-weight: 600;
+    }
+    
+    
     
 </style>
