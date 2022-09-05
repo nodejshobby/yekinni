@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-center mt-2 g-4">
-        <div class="col-11 col-md-10 col-lg-8 col-xl-6 animate__animated animate__flipInX">
+        <div class="col-11 col-md-10 col-lg-8 col-xl-6" data-aos="flip-down">
             <form action="https://formspree.io/f/mdojaapn" method="post" id="contactForm" @submit.prevent="handleSubmit">
                 <div class="alert alert-success mb-3" v-if="success">
                     {{ success }}
@@ -96,8 +96,8 @@ export default {
     }
     #contact-btn {
         padding: .8rem 3rem;
-        background-color: var(--dark-blue);
-        border-color: var(--dark-blue);
+        background-color: var(--light-blue);
+        border-color: var(--light-blue);
         color: var(--secondary-color);
         font-weight: 600;
         transition: all .5s ease;

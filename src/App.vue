@@ -18,6 +18,7 @@ import ProjectSection from './components/Project.vue';
 import SkillSection from './components/Skills.vue';
 import ContactSection from './components/Contact.vue';
 import FooterSection from './components/Footer.vue';
+import AOS from 'aos';
 
 export default {
   name: 'App',
@@ -29,6 +30,9 @@ export default {
     SkillSection,
     ContactSection,
     FooterSection,
+  },
+  mounted(){
+    AOS.init()
   }
 }
 </script>

@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-center g-4 mt-3">
-            <div class="col-md-6 col-xl-4 shadow-sm animate__animated animate__flipInX" v-for="project in projects" :key="project.projectTitle">
+            <div class="col-md-6 col-xl-4 shadow-sm" v-for="project in projects" :key="project.projectTitle" data-aos="flip-down">
                 <div class="card bg-white project h-100">
                     <img class="card-img-top img-fluid" :src="project.projectImage" alt="">
                     <div class="card-body">

@@ -7,10 +7,10 @@
         </div>
     </div>
     <div class="row mt-3 justify-content-center align-items-center g-3">
-        <div class="col-md-6 animate__animated animate__flipInX text-center mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
+        <div class="col-md-6 text-center mb-4 mb-lg-0 d-flex align-items-center justify-content-center" data-aos="flip-down">
             <img class="img-fluid" src="../assets/rsz_2nodejshobby.png" id="about-me-image" alt="">
         </div>
-        <div class="col-11 col-md-6 animate__animated animate__flipInX about-text">
+        <div class="col-11 col-md-6 about-text" data-aos="flip-down">
             <h2 class="mb-3">Who I am</h2>
            <p> I am a passionate and result-driven <b>fullstack web developer</b> with 3 years hands-on experience using Php, JavaScript and its related stacks in building secure and scalable web applications. I am extremely skillful using Relational Databases such as MySQL and PostgreSQL, and No SQL databases like MongoDB. I am productive in both team-based and self-managed projects, and passionate.</p>
            <a class="btn btn-outline-dark blue-hover-effect mt-2 p-2 px-3"><i class="fa fa-download"></i> Download my CV</a>
