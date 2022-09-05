@@ -12,7 +12,7 @@
         </div>
         <div class="col-11 col-md-6 about-text" data-aos="flip-down">
             <h2 class="mb-3">Who I am</h2>
-           <p> I am a passionate and result-driven <b>fullstack web developer</b> with 3 years hands-on experience using Php, JavaScript and its related stacks in building secure and scalable web applications. I am extremely skillful using Relational Databases such as MySQL and PostgreSQL, and No SQL databases like MongoDB. I am productive in both team-based and self-managed projects, and passionate.</p>
+           <p> I am a passionate and result-driven <b>fullstack web developer</b> with 3 years hands-on experience using Php, JavaScript and its related stacks in building secure and scalable web applications. I am extremely skillful using Relational Databases such as MySQL and PostgreSQL, and No SQL databases like MongoDB. I am productive in both team-based and self-managed projects.</p>
            <a href="https://drive.google.com/file/d/1cyaOhu4wR2G889oF_nXbx_vxrEhrKCO3/view" class="btn btn-outline-dark blue-hover-effect mt-2 p-2 px-3" target="_blank"><i class="fa fa-download"></i> Download my CV</a>
         </div>
     </div>
