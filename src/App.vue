@@ -81,6 +81,11 @@ export default {
     border-color: var(--dark-blue);
     font-weight: 600;
   }
+
+  .blue-hover-effect:focus, .blue-hover-effect:active {
+    background-color: var(--primary-color);
+  }
+
   .blue-hover-effect:hover {
     background-color: var(--primary-color);
   }
