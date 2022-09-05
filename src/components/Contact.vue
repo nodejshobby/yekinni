@@ -8,18 +8,24 @@
     </div>
     <div class="row justify-content-center align-items-center mt-2 g-4">
         <div class="col-11 col-md-10 col-lg-8 col-xl-6">
-            <form action="https://formspree.io/f/mdojaapn" method="post">
-                <div class="form-group mb-3">
-                    <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject" required>
+            <form action="https://formspree.io/f/mdojaapn" method="post" id="contactForm" @submit.prevent="handleSubmit">
+                <div class="alert alert-success mb-3" v-if="success">
+                    {{ success }}
+                </div>
+                <div class="alert alert-danger mb-3" v-if="error">
+                    {{ error }}
                 </div>
                 <div class="form-group mb-3">
-                    <input class="form-control" type="email" name="email" id="email" placeholder="Email" required>
+                    <input v-model.trim="subject" class="form-control" type="text" name="subject"  placeholder="Subject" required>
                 </div>
                 <div class="form-group mb-3">
-                    <input class="form-control" type="text" name="fullname" id="fullname" placeholder="Fullname" required>
+                    <input v-model.trim="email" class="form-control" type="email" name="email"  placeholder="Email" required>
                 </div>
                 <div class="form-group mb-3">
-                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <input v-model.trim="fullname" class="form-control" type="text" name="fullname"  placeholder="Fullname" required>
+                </div>
+                <div class="form-group mb-3">
+                    <textarea v-model.trim="message" class="form-control" name="message"  cols="30" rows="10" placeholder="Message" required></textarea>
                 </div>
                 <div class="form-group mt-4 text-center">
                     <button class="btn btn-primary shadow" type="submit" id="contact-btn">Send</button>
@@ -32,7 +38,54 @@
 
 <script>
 export default {
-    name: 'ContactSection'
+    name: 'ContactSection',
+    data(){
+        return {
+            subject: '',
+            email: '',
+            fullname: '',
+            message: '',
+            error: null,
+            success: null
+        }
+    },
+    methods: {
+        handleSubmit(e){
+            var contactBtn=document.getElementById('contact-btn');
+            contactBtn.innerText = "Processing...";
+            var data = new FormData();
+            data.append('subject', this.subject)
+            data.append('email', this.email)
+            data.append('fullname', this.fullname)
+            data.append('message', this.message)
+
+            fetch(e.target.action, {
+                method: e.target.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+        }).then(response => {
+            if(response.ok){
+                this.success ="Thanks for your submission!";
+            }else{
+                this.error = "Oops! There was a problem submitting your form"
+            }
+            contactBtn.innerText = "Send";
+            this.resetForm();
+        }).catch(() => {
+            this.error = "Oops! There was a problem submitting your form"
+            contactBtn.innerText = "Send";
+            this.resetForm();
+        });
+        },
+        resetForm(){
+            this.subject = ''
+            this.fullname = ''
+            this.email = ''
+            this.message = ''
+        }   
+    }
 }
 </script>
 

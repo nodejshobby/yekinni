@@ -2,7 +2,7 @@
     <div class="mb-4">
         <h6 class="skill-title">{{ title }}</h6>
         <div class="container-skill">
-            <div class="skills" :style="{ 'width': width.concat('%'), 'background-color': color}">{{ width.concat('%') }}</div>
+            <div class="skills" :style="{ 'width': `${width}%`, 'background-color': color}">{{ `${width}%` }}</div>
         </div>
     </div>
     
@@ -12,10 +12,10 @@
 export default {
     name: 'SkillBar',
     props: {
-    title: String,
-    width: Number,
-    color: String
-  }
+        title: String,
+        width: Number,
+        color: String
+    }
 }
 </script>
 
